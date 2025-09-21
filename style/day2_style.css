@@ -1,0 +1,42 @@
+.box {
+  width: 500px;
+  height: 700px;
+}
+
+.box .rectangle {
+  position: fixed;
+  top: 3292px;
+  left: -621px;
+  width: 500px;
+  height: 700px;
+  background-color: #6f6e6e;
+  border-radius: 50px;
+  border: 3px solid;
+  border-color: #000000;
+  box-shadow: 10px 10px 4px 4px #5e6a0540;
+}
+/* Original CSS code should be injected here */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.card {
+  width: 500px;
+  height: 700px;
+  position: relative;
+}
+
+.card-content {
+  width: 100%;
+  height: 100%;
+  background-color: #6f6e6e;
+  border-radius: 50px;
+  border: 3px solid #000000;
+  box-shadow: 10px 10px 4px 4px #5e6a0540;
+}
