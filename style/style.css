@@ -1,6 +1,11 @@
 /*기본 및 레이아웃*/
+/*
+    스타일 적용 우선 순위
+    - important > inline style > id > class/어트리뷰트/가상 선택자 > 태그 선택자 > 상속된 스타일
+
+*/
 body{
-    background: linear-gradient(to right,#b6db3d,#e6f2ce);
+    background: linear-gradient(to right,#b6db3d,#a5ad95);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 기본 글꼴 지정*/
     display: flex; /* 플렉스 박스 레이아웃을 이용해 자식 요소들을 정렬한다.*/
     justify-content: center;/*가로 중앙 정렬*/
@@ -30,7 +35,7 @@ body{
 .profile-pic{
     width: 150px; /*프로필 사진 너비*/
     height: 150px;  /*프로필 사진 높이*/
-    border-radius: 5px solid ; black;
+    border-radius: 50% ;
 }
 
 /* 카드 본문 */
@@ -52,13 +57,13 @@ body{
 }
 
 /* 푸터 및 버튼 */
-.card-footer a{
-    background: linear-gradient(to right, #c44024, #e6f2ce)
-    color : 
+.card-footer a {
+    background: linear-gradient(to right, #c44024, #e6f2ce);
+    color : rgba(0,0,0,0.1);
     text-decoration: none;
-    border-radius: bold
-    font-weight
-    transition: transform
+    border-radius: bold;
+    font-weight : bold;
+    transition: transform;
     padding: 12px 30px;
     margin : 10px;
 }

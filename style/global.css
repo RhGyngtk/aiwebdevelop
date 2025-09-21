@@ -3,16 +3,18 @@
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-html,
-body {
-  margin: 0px;
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
-}
-/* a blue color as a generic focus style */
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
+  font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', Arial, sans-serif;
+  background: #f5f6fa;
 }
 a {
   text-decoration: none;
+  color: inherit;
+}
+button:focus-visible, a:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
 }
